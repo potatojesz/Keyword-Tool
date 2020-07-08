@@ -51,6 +51,7 @@
             this.textBoxEnter.Location = new System.Drawing.Point(12, 12);
             this.textBoxEnter.Multiline = true;
             this.textBoxEnter.Name = "textBoxEnter";
+            this.textBoxEnter.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.textBoxEnter.Size = new System.Drawing.Size(400, 517);
             this.textBoxEnter.TabIndex = 6;
             // 
@@ -59,6 +60,7 @@
             this.textBoxGenerated.Location = new System.Drawing.Point(596, 12);
             this.textBoxGenerated.Multiline = true;
             this.textBoxGenerated.Name = "textBoxGenerated";
+            this.textBoxGenerated.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.textBoxGenerated.Size = new System.Drawing.Size(400, 517);
             this.textBoxGenerated.TabIndex = 7;
             // 
