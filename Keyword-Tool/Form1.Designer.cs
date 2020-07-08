@@ -40,7 +40,7 @@
             this.buttonAction.Font = new System.Drawing.Font("Microsoft YaHei UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAction.Location = new System.Drawing.Point(418, 12);
             this.buttonAction.Name = "buttonAction";
-            this.buttonAction.Size = new System.Drawing.Size(111, 518);
+            this.buttonAction.Size = new System.Drawing.Size(172, 518);
             this.buttonAction.TabIndex = 5;
             this.buttonAction.Text = ">>>";
             this.buttonAction.UseVisualStyleBackColor = false;
@@ -56,10 +56,10 @@
             // 
             // textBoxGenerated
             // 
-            this.textBoxGenerated.Location = new System.Drawing.Point(535, 12);
+            this.textBoxGenerated.Location = new System.Drawing.Point(596, 12);
             this.textBoxGenerated.Multiline = true;
             this.textBoxGenerated.Name = "textBoxGenerated";
-            this.textBoxGenerated.Size = new System.Drawing.Size(461, 517);
+            this.textBoxGenerated.Size = new System.Drawing.Size(400, 517);
             this.textBoxGenerated.TabIndex = 7;
             // 
             // Form1
