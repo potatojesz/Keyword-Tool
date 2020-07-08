@@ -15,5 +15,25 @@ namespace Keyword_Tool
         {
             InitializeComponent();
         }
+
+        private void buttonAction_Click(object sender, EventArgs e)
+        {
+            if (!String.IsNullOrEmpty(textBoxEnter.Text))
+            {
+                string[] separateWords = textBoxEnter.Text.Split(new string[] { System.Environment.NewLine }, StringSplitOptions.None);
+
+                List<string> input = new List<string>();
+                foreach (string str in separateWords)
+                {
+                    input.Add(str.Trim());
+                }
+
+                textBoxGenerated.Text = Engine.GenerateKeywordsString(input);
+            }
+            else
+            {
+                textBoxGenerated.Text = "";
+            }
+        }
     }
 }
